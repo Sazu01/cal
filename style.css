@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 62.5%;
+    background-color: #202020;
+    color: #fff;
+}
+
+body {height: 100vh}
+
+/* Result */
+
+section.result{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 30px;
+    background-color: #141414;
+}
+
+h1 {font-size: 4.5rem}
+
+div.old_ans{
+    opacity: 0.1;
+    margin-bottom: 2rem;
+}
+
+/* Grid */
+
+.Input_area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 70vh;
+}
+
+.number {
+    height: 100%;
+    width: 100%;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 300ms ease-in-out;
+}
+
+.number h1, .Icon img{
+    font-weight: 400;
+    pointer-events: none;
+}
+
+.fx:active {
+    background-color: #373737;
+}
+
+/* s */
+.numberE{
+    background-color: #F56E22;
+    grid-row: span 2;
+}
+
+.numberE:active{background-color: #f39761}
+.numberAC h1{font-size: 3rem}
