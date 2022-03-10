@@ -85,7 +85,7 @@ btn_wrapper.addEventListener("click", e => {
         temp += "+"
     }else if (e.target === btn_x) {
         console.log(`btn_x`)
-        temp += "x"
+        temp += "*"
     }else if (e.target === btn_D) {
         console.log(`btn_D`)
         temp += "/"
