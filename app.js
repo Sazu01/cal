@@ -76,7 +76,7 @@ btn_wrapper.addEventListener("click", e => {
         temp = temp.slice(0, -1)
     }else if (e.target === btn_Per) {
         console.log(`btn_Per`)
-        temp += "%"
+        temp += "/100"
     }else if (e.target === btn_M) {
         console.log(`btn_M`)
         temp += "-"
